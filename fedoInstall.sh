@@ -89,3 +89,5 @@ echo "Logiciel_Flatpak Jeux OK" >> .suivisInstall.txt
 sudo dnf install 
 flatpak install flathub org.gtk.Gtk3theme.Yaru-Aqua-dark -y
 echo "theme Flatpak OK" >> .suivisInstall.txt
+
+cat .suivisInstall.txt 
