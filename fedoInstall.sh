@@ -26,7 +26,7 @@ sudo dnf install -y blender inkscape krita scribus gcolor3
 
 #internet
 sudo dnf install -y discord firefox thunderbird transmission tor cawbird fillezilla
-sudo rmp -ivh RPM_Save20210920/Simplenote-linux-2.18.0-x86_64.rpm #https://simplenote.com/
+#sudo rmp -ivh Simplenote-linux-2.18.0-x86_64.rpm #https://simplenote.com/
 
 #Utilitaire_terminal
 sudo dnf install -y ytop cmatrix elinks 
@@ -36,11 +36,11 @@ sudo dnf install -y gparted gnome-tweaks gnome-extensions-app
 
 #Code
 sudo dnf install -y godot meld
-sudo dnf install -y lsb-core-noarch && sudo rpm -ivh RPM_Save20210920/atom.x86_64.rpm #https://atom.io/
+#sudo dnf install -y lsb-core-noarch && sudo rpm -ivh atom.x86_64.rpm #https://atom.io/
 
 #AudioVideo
 sudo dnf install -y vlc soundconverter kdenlive tuxguitar flacon
-sudo rmp -ivh RPM_Save20210920/freetube_0.14.0_amd64.rpm #https://freetubeapp.io/
+#sudo rmp -ivh freetube_0.14.0_amd64.rpm #https://freetubeapp.io/
 
 #Jeux
 sudo dnf install -y steam minigalaxy lutris
