@@ -10,7 +10,8 @@ sudo dnf install -y --nogpgcheck https://download1.rpmfusion.org/nonfree/fedora/
 sudo dnf upgrade -y
 
 #Codecs_Media
-sudo dnf install -y rpmfusion-free-appstream-data && sudo dnf install rpmfusion-nonfree-appstream-data
+sudo dnf install -y rpmfusion-free-appstream-data 
+sudo dnf install -y rpmfusion-nonfree-appstream-data
 sudo dnf install -y gstreamer-ffmpeg gstreamer-plugins-bad gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly
 sudo dnf install -y gstreamer1-plugins-{base,good,bad-free,good-extras,bad-free-extras} gstreamer1-plugin-mpg123
 sudo dnf install -y gstreamer1-libav gstreamer1-plugins-{bad-freeworld,ugly}
@@ -49,7 +50,7 @@ sudo dnf install -y steam minigalaxy lutris
 ####################################################################################################################################################################################################################################################################
 
 #PreInstall
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo -y
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 #Bureautique
 flatpak install -y com.github.junrrein.PDFSlicer
