@@ -80,6 +80,5 @@ flatpak install -y org.openmw.OpenMW
 #Theme Fedora
 ####################################################################################################################################################################################################################################################################
 
-sudo dnf install 
 #flatpak install flathub org.gtk.Gtk3theme.Yaru-Aqua-dark -y #ThemeUbuntu
 flatpak install flathub org.gtk.Gtk3theme.Adwaita-dark -y #ThemeFedoDarkBasic
