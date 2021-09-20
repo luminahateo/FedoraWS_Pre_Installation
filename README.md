@@ -5,7 +5,9 @@
 2/ Une connection internet   
 3/ Une tasse de chocolat chaud, le temps de l'installation ;)    
 
-### Liste des softwares installés
+### Liste des softwares installés     
+//dnf natif, *flatpak*
+
 - **répertoire supplémentaire**
 - **codecs**
 - **Bureautique**: libreoffice elementary-planner dialect foliate apostrophe *PDFSlicer*
@@ -15,6 +17,9 @@
 - **Code**: godot meld 
 - **AudioVideo**: vlc soundconverter kdenlive tuxguitar flacon *curtail tauon spotify podcasts famistudio bitwigstudio*
 - **Jeux**: steam minigalaxy lutris *openmw*
+
+- **A installer via RPM de leur site**: atom, freetube, simplenote   
+//```sudo rpm -ivh lepackage.rpm```
 
 ### Installation 
 1/ Télécharger le script    
