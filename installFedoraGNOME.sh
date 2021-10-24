@@ -27,7 +27,6 @@ sudo dnf install -y blender inkscape krita scribus gcolor3
 
 #internet
 sudo dnf install -y discord firefox thunderbird transmission tor cawbird fillezilla
-#sudo rmp -ivh Simplenote-linux-2.18.0-x86_64.rpm #https://simplenote.com/
 
 #Utilitaire_terminal
 sudo dnf install -y ytop cmatrix elinks 
@@ -35,13 +34,14 @@ sudo dnf install -y ytop cmatrix elinks
 #Utilitaire
 sudo dnf install -y gparted gnome-tweaks gnome-extensions-app
 
+sudo dnf install -y powerline powerline-fonts
+cp Extra/bashrc ~/.bashrc
+
 #Code
 sudo dnf install -y godot meld
-#sudo dnf install -y lsb-core-noarch && sudo rpm -ivh atom.x86_64.rpm #https://atom.io/
 
 #AudioVideo
 sudo dnf install -y vlc soundconverter kdenlive tuxguitar flacon
-#sudo rmp -ivh freetube_0.14.0_amd64.rpm #https://freetubeapp.io/
 
 #Jeux
 sudo dnf install -y steam minigalaxy lutris
@@ -53,17 +53,25 @@ sudo dnf install -y steam minigalaxy lutris
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 #Bureautique
-flatpak install -y com.github.junrrein.PDFSlicer
+flatpak install -y com.github.junrrein.PDFSlicer Simplenote
 
 #Internet
 flatpak install -y com.tutanota.Tutanota 
+flatpak install -y com.github.hugolabe.Wike
 
 #Graphisme
-flatpak install -y com.orama_interactive.Pixelorama
+flatpak install -y com.orama_interactive.Pixelorama freetube
 flatpak install -y fr.natron.Natron
+flatpak install -y org.gnome.design.AppIconPreview
+
 
 #Utilitaire
-flatpak install -y com.github.tchx84.Flatseal
+flatpak install -y com.github.tchx84.Flatseal 
+flatpak install -y com.github.alexhuntley.Plots
+
+
+#Programmation
+flatpak instll -y io.atom.Atom
 
 #AudioVideo
 flatpak install -y com.github.huluti.Curtail
@@ -71,6 +79,8 @@ flatpak install -y flathub com.github.taiko2k.tauonmb
 flatpak install -y com.spotify.Client 
 flatpak install -y org.gnome.Podcasts
 flatpak install -y org.famistudio.FamiStudio
+flatpak install -Y com.github.geigi.cozy
+flatpak install -y de.haeckerfelix.Shortwave
 
 flatpak install -y com.bitwig.BitwigStudio
 
@@ -80,8 +90,13 @@ flatpak install -y org.openmw.OpenMW
 #Theme Fedora
 ####################################################################################################################################################################################################################################################################
 
+sudo dnf install -y yaru*
+gsettings set org.gnome.desktop.interface icon-theme "Yaru"
+gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
+
 #flatpak install flathub org.gtk.Gtk3theme.Yaru-Aqua-dark -y #ThemeUbuntu
 flatpak install flathub org.gtk.Gtk3theme.Adwaita-dark -y #ThemeFedoDarkBasic
+
 
 #ExtensionGNOME
 ####################################################################################################################################################################################################################################################################
@@ -90,4 +105,4 @@ sudo dnf install -y gnome-shell-extension-pop-shell
 sudo dnf install -y gnome-shell-extension-pop-shell-shortcut-overrides
 sudo dnf install -y gnome-shell-extension-appindicator
 sudo dnf install -y gnome-shell-extension-sound-output-device-chooser
-sudo dnf install -y gnome-shell-extension-user-theme
+#sudo dnf install -y gnome-shell-extension-user-theme
