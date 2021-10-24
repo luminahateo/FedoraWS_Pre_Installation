@@ -109,7 +109,7 @@ gsettings set org.gnome.desktop.sound theme-name "Yaru"
 gsettings set org.gnome.desktop.wm.preferences button-layout 'close:'
 
 sudo dnf copr enable zirix/gdm-wallpaper
-sudo dnf install -y gdm-wallpaper && set-gdm-wallpaper /usr/share/backgrounds/FDSL.jpeg
+sudo dnf install -y gdm-wallpaper && sudo set-gdm-wallpaper /usr/share/backgrounds/FDSL.jpeg
 
 #flatpak install flathub org.gtk.Gtk3theme.Yaru-Aqua-dark -y #ThemeUbuntu
 flatpak install -y org.gtk.Gtk3theme.Adwaita-dark #ThemeFedoDarkBasic
