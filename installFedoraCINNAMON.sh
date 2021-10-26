@@ -4,7 +4,11 @@
 ####################################################################################################################################################################################################################################################################
 
 #PreInstall_DNF
+sudo dnf autoremove -y dnfdragora
+sudo dnf install gnome-software gnome-packagekit
+
 sudo rm /etc/dnf/dnf.conf && sudo cp Extra/dnf.conf /etc/dnf/
+
 sudo dnf update -y
 sudo dnf install -y --nogpgcheck https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install -y --nogpgcheck https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -19,6 +23,7 @@ sudo dnf install -y gstreamer1-libav gstreamer1-plugins-{bad-freeworld,ugly}
 
 sudo dnf update -y
 
+
 #Logiciels_DNF
 ####################################################################################################################################################################################################################################################################
 
@@ -26,15 +31,8 @@ sudo dnf update -y
 sudo dnf install -y libreoffice dialect foliate apostrophe
 
 #Graphisme
-sudo dnf autoremove -y gnome-photos
-sudo dnf install -y blender inkscape krita scribus gimp gcolor3 shotwell
-
-git clone https://github.com/Diolinux/PhotoGIMP
-mkdir ~/icons
-cp PhotoGIMP/.icons/ ~/.icons
-cp PhotoGIMP/.local/share/applications/org.gimp.GIMP.desktop ~/.local/share/applications/
-rsync -a PhotoGIMP/.local/share/icons/ ~/.local/share/icons/
-rsync -a PhotoGIMP/.var/ ~/.var/
+sudo dnf autoremove -y eom
+sudo dnf install -y blender inkscape krita scribus gimp shotwell
 
 #internet
 sudo dnf install -y discord firefox thunderbird transmission tor cawbird filezilla
@@ -43,7 +41,7 @@ sudo dnf install -y discord firefox thunderbird transmission tor cawbird filezil
 sudo dnf install -y ytop cmatrix elinks speedtest-cli 
 
 #Utilitaire
-sudo dnf install -y gparted gnome-tweaks gnome-extensions-app
+sudo dnf autoremove -y onboard
 sudo dnf install -y powerline powerline-fonts
 cp Extra/bashrc ~/.bashrc
 
@@ -51,7 +49,7 @@ cp Extra/bashrc ~/.bashrc
 sudo dnf install -y godot meld
 
 #AudioVideo
-sudo dnf autoremove -y rhythmbox totem totem-plugins cheese
+sudo dnf autoremove -y rhythmbox xawtv parole xfburn
 sudo dnf install -y vlc soundconverter kdenlive flacon brasero
 
 #Jeux
@@ -97,31 +95,6 @@ flatpak install -y org.openmw.OpenMW
 
 #Theme Fedora
 ####################################################################################################################################################################################################################################################################
-sudo dnf install -y yaru*
-gsettings set org.gnome.desktop.interface icon-theme "Yaru"
-gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
-sudo cp Extra/FDSL.jpeg /usr/share/backgrounds/
-URI="file:///usr/share/backgrounds/FDSL.jpeg"
-echo ${URI}
-gsettings set org.gnome.desktop.background picture-options 'centered'
-gsettings set org.gnome.desktop.background picture-uri "${URI}"
-gsettings set org.gnome.desktop.sound theme-name "Yaru"
-gsettings set org.gnome.desktop.wm.preferences button-layout 'close:'
-
-sudo dnf copr enable zirix/gdm-wallpaper
-sudo dnf install -y gdm-wallpaper && sudo set-gdm-wallpaper /usr/share/backgrounds/FDSL.jpeg
-
-#flatpak install flathub org.gtk.Gtk3theme.Yaru-Aqua-dark -y #ThemeUbuntu
-flatpak install flathub org.gtk.Gtk3theme.Adwaita-dark -y #ThemeFedoDarkBasic
-
-
-#ExtensionGNOME
-####################################################################################################################################################################################################################################################################
-
-sudo dnf install -y gnome-shell-extension-pop-shell
-sudo dnf install -y gnome-shell-extension-pop-shell-shortcut-overrides
-sudo dnf install -y gnome-shell-extension-appindicator
-sudo dnf install -y gnome-shell-extension-sound-output-device-chooser
-sudo dnf install -y gnome-shell-extension-user-theme
+flatpak install flathub org.gtk.Gtk3theme.Mint-Y-Dark-Aqua -y 
 
 sudo reboot
