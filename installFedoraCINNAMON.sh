@@ -5,7 +5,7 @@
 
 #PreInstall_DNF
 sudo dnf autoremove -y dnfdragora
-sudo dnf install gnome-software gnome-packagekit
+sudo dnf install -y gnome-software gnome-packagekit
 
 sudo rm /etc/dnf/dnf.conf && sudo cp Extra/dnf.conf /etc/dnf/
 
@@ -35,7 +35,7 @@ sudo dnf autoremove -y eom
 sudo dnf install -y blender inkscape krita scribus gimp shotwell
 
 #internet
-sudo dnf install -y discord firefox thunderbird transmission tor cawbird filezilla
+sudo dnf install -y discord firefox thunderbird transmission tor filezilla
 
 #Utilitaire_terminal
 sudo dnf install -y ytop cmatrix elinks speedtest-cli 
