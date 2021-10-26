@@ -37,7 +37,7 @@ rsync -a PhotoGIMP/.local/share/icons/ ~/.local/share/icons/
 rsync -a PhotoGIMP/.var/ ~/.var/
 
 #internet
-sudo dnf install -y discord firefox thunderbird transmission tor cawbird filezilla
+sudo dnf install -y discord firefox thunderbird transmission tor filezilla
 
 #Utilitaire_terminal
 sudo dnf install -y ytop cmatrix elinks speedtest-cli 
