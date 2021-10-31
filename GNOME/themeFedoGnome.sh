@@ -13,7 +13,7 @@ gsettings set org.gnome.desktop.background picture-uri "${URI}"
 gsettings set org.gnome.desktop.sound theme-name "Yaru"
 gsettings set org.gnome.desktop.wm.preferences button-layout 'close:'
 
-sudo dnf copr enable zirix/gdm-wallpaper
+sudo dnf copr enable zirix/gdm-wallpaper -y
 sudo dnf install -y gdm-wallpaper && sudo set-gdm-wallpaper /usr/share/backgrounds/FDSL.png
 
 #flatpak install flathub org.gtk.Gtk3theme.Yaru-Aqua-dark -y #ThemeUbuntu

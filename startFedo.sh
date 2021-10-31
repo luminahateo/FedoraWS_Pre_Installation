@@ -12,12 +12,14 @@ INSTALLATEUR FEDORA
 "
 read -r choix
 
+./"OS/fedora.sh"
+
 if [ "$choix" = "0" ]; then
   echo "fin de programme"
 elif [ "$choix" = "1" ]; then
-  ./gnome.sh
+  ./"GNOME/gnome.sh"
 elif [ $choix = "2" ]; then
-  ./cinnamon.sh
+  ./"CINNAMON/cinnamon.sh"
 else
   ./startFedo.sh
 fi

@@ -9,10 +9,7 @@ rpmfusion libre et non-libre ...
 Codecs multimédia ...
 Mise à jour Flatpak ...
 "
-./addonsCodecsFedo.sh >> progress.sh
-
-cd ..
-cd OS/
+./"OS/addonsCodecsFedo.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -29,7 +26,7 @@ Déinstallation des extensions natifs non souhaités OK
 Installation logiciels DNF ...
 ################################################################################
 "
-./logicielsDNF.sh >> progress.sh
+./"OS/logicielsDNF.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -47,7 +44,7 @@ Installation logiciels DNF OK
 Installation logiciels Flatpak ...
 ################################################################################
 "
-./logicielsFlatpak.sh >> progress.sh
+./"OS/logicielsFlatpak.sh"
 
 echo "
 Voulez-vous redemarrer?

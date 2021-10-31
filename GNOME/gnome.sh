@@ -12,7 +12,7 @@ Theme Fedora ...
 Extension GNOME ...
 ################################################################################
 "
-./themeFedoGnome.sh >> progress.sh
+./"GNOME/themeFedoGnome.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -29,4 +29,4 @@ Déinstallation des extensions natifs non souhaités ...
 ################################################################################
 "
 
-./removeGnomeSoftware.sh >> progress.sh
+./"GNOME/removeGnomeSoftware.sh"
