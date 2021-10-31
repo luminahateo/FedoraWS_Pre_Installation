@@ -6,7 +6,7 @@ echo "INSTALLATEUR DE FEDORA
 Miroir le plus rapide ...
 ################################################################################
 "
-su -root -c "OS/miroirFast.sh"
+sudu ./"OS/miroirFast.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -15,7 +15,7 @@ Miroir le plus rapide ...................................................... OK
 Première mise à jour ...
 ################################################################################
 "
-su -root -c "OS/updateFedo.sh"
+sudo ./"OS/updateFedo.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -25,7 +25,7 @@ Première mise à jour ....................................................... O
 RPMfusion libre et non-libre ...
 ################################################################################
 "
-su -root -c "/OS/RPM.sh"
+sudo ./"/OS/RPM.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -36,7 +36,7 @@ RPMfusion libre et non-libre ............................................... OK
 Codecs ...
 ################################################################################
 "
-su -root -c "/OS/codecs.sh"
+sudo ./"/OS/codecs.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -48,7 +48,7 @@ Codecs ..................................................................... OK
 Installation Flathub ...
 ################################################################################
 "
-su -root -c "/OS/flatpak.sh"
+sudo ./"/OS/flatpak.sh"
 
 #Propre à Gnome
 ################################################################################
@@ -63,7 +63,7 @@ Installation Flathub ....................................................... OK
 Gnome - Themes & Extensions ...
 ################################################################################
 "
-su -root -c "GNOME/gnome.sh"
+sudo ./"GNOME/gnome.sh"
 ################################################################################
 
 clear
@@ -78,7 +78,7 @@ Gnome - Themes & Extensions ................................................ OK
 Logiciels DNF ...
 ################################################################################
 "
-su -root -c "OS/logicielsDNF.sh"
+sudo ./"OS/logicielsDNF.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -93,7 +93,7 @@ Logiciels DNF .............................................................. OK
 Logiciels Flatpak ...
 ################################################################################
 "
-su -root -c "OS/logicielsFlatpak.sh"
+sudo ./"OS/logicielsFlatpak.sh"
 
 echo "INSTALLATEUR DE FEDORA
 ################################################################################

@@ -8,7 +8,7 @@ gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
 
 #wallpaper
 ################################################################################
-cp Extra/FDSL2.png /usr/share/backgrounds/
+sudo cp Extra/FDSL2.png /usr/share/backgrounds/
 URI="file:///usr/share/backgrounds/FDSL2.png"
 echo ${URI}
 

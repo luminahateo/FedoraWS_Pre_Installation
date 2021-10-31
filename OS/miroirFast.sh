@@ -2,4 +2,4 @@
 
 #Mirror Fast
 ################################################################################
-rm /etc/dnf/dnf.conf && cp Extra/dnf.conf /etc/dnf/
+sudo rm /etc/dnf/dnf.conf && sudo cp Extra/dnf.conf /etc/dnf/

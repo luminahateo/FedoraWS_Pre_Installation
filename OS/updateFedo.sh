@@ -2,5 +2,5 @@
 
 #Mise à jour
 ################################################################################
-dnf ugrade -y
+sudo dnf ugrade -y
 flatpak update -y

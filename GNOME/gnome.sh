@@ -15,7 +15,7 @@ Theme GNOME ................................................................ OK
 Extensions GNOME ...
 ################################################################################
 "
-su -root -c "GNOME/extGnome.sh"
+sudo ./"GNOME/extGnome.sh"
 
 clear
 echo "INSTALLATEUR DE GNOME
@@ -25,7 +25,7 @@ Extensions GNOME ........................................................... OK
 Nettoyage GNOME ...
 ################################################################################
 "
-su -root -c ./"GNOME/removeGnomeSoftware.sh"
+sudo ./"GNOME/removeGnomeSoftware.sh"
 
 clear
 echo "INSTALLATEUR DE GNOME
