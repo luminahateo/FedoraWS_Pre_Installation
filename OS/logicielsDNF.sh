@@ -18,7 +18,7 @@ sudo dnf install -y firefox-wayland
 sudo dnf install -y discord
 sudo dnf install -y thunderbird-wayland
 sudo dnf install -y transmission transmission-cli
-sudo dnf install -y tor onionshare
+# sudo dnf install -y tor onionshare
 sudo dnf install -y filezilla
 
 #Utilitaire_terminal

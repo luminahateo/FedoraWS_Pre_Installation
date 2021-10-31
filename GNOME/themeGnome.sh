@@ -8,8 +8,8 @@ gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
 
 #wallpaper
 ################################################################################
-sudo cp Extra/FDSL2.png /usr/share/backgrounds/
-URI="file:///usr/share/backgrounds/FDSL2.png"
+sudo cp Extra/FDSL.png /usr/share/backgrounds/
+URI="file:///usr/share/backgrounds/FDSL.png"
 echo ${URI}
 
 #Parametre interface
@@ -22,7 +22,7 @@ gsettings set org.gnome.desktop.wm.preferences button-layout 'close:'
 #GDM
 ################################################################################
 sudo dnf copr enable zirix/gdm-wallpaper -y
-sudo dnf install -y gdm-wallpaper && set-gdm-wallpaper /usr/share/backgrounds/FDSL.png
+sudo dnf install -y gdm-wallpaper && sudo set-gdm-wallpaper /usr/share/backgrounds/FDSL.png
 
 #Theme flatpak
 ################################################################################

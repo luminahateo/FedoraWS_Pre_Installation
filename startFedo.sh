@@ -6,7 +6,7 @@ echo "INSTALLATEUR DE FEDORA
 Miroir le plus rapide ...
 ################################################################################
 "
-sudu ./"OS/miroirFast.sh"
+./"OS/miroirFast.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -15,7 +15,7 @@ Miroir le plus rapide ...................................................... OK
 Première mise à jour ...
 ################################################################################
 "
-sudo ./"OS/updateFedo.sh"
+./"OS/updateFedo.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -25,7 +25,7 @@ Première mise à jour ....................................................... O
 RPMfusion libre et non-libre ...
 ################################################################################
 "
-sudo ./"/OS/RPM.sh"
+./"/OS/RPM.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -36,7 +36,7 @@ RPMfusion libre et non-libre ............................................... OK
 Codecs ...
 ################################################################################
 "
-sudo ./"/OS/codecs.sh"
+./"/OS/codecs.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -48,7 +48,7 @@ Codecs ..................................................................... OK
 Installation Flathub ...
 ################################################################################
 "
-sudo ./"/OS/flatpak.sh"
+./"/OS/flatpak.sh"
 
 #Propre à Gnome
 ################################################################################
@@ -63,7 +63,7 @@ Installation Flathub ....................................................... OK
 Gnome - Themes & Extensions ...
 ################################################################################
 "
-sudo ./"GNOME/gnome.sh"
+./"GNOME/gnome.sh"
 ################################################################################
 
 clear
@@ -78,7 +78,7 @@ Gnome - Themes & Extensions ................................................ OK
 Logiciels DNF ...
 ################################################################################
 "
-sudo ./"OS/logicielsDNF.sh"
+./"OS/logicielsDNF.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
@@ -93,7 +93,7 @@ Logiciels DNF .............................................................. OK
 Logiciels Flatpak ...
 ################################################################################
 "
-sudo ./"OS/logicielsFlatpak.sh"
+./"OS/logicielsFlatpak.sh"
 
 echo "INSTALLATEUR DE FEDORA
 ################################################################################
@@ -114,7 +114,7 @@ Il est préférable de redemarrer, vous êtes prêt?
 ################################################################################
 "
 read -r reponse
-
+sudo dnf clean all
 if [ "$reponse" = "oui" ]; then
   reboot
 else
