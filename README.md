@@ -5,9 +5,6 @@
 2/ Une connection internet   
 3/ Une tasse de chocolat chaud, le temps de l'installation ;)    
 
-- **A installer via RPM de leur site**: atom, freetube, simplenote   
-//```sudo rpm -ivh lepackage.rpm```
-
 ### Installation
 1/ Télécharger le script    
 2/ Ouvrir le terminal à l'endroit du script     
