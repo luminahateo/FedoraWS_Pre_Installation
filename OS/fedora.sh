@@ -54,7 +54,7 @@ Voulez-vous redemarrer?
 read -r reponse
 
 if [ "$reponse" = "oui" ]; then
-  sudo reboot
+  reboot
 else
   echo "fin de programme"
 fi

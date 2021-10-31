@@ -4,6 +4,8 @@ clear
 echo "INSTALLATEUR DE FEDORA
 ################################################################################"
 
+sudo -i
+
 echo "
 INSTALLATEUR FEDORA
    [1] gnome

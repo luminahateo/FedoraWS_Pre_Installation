@@ -1,17 +1,17 @@
 #!/bin/sh
 
 #Bureautique
-sudo dnf install -y libreoffice libreoffice-grammalecte libreoffice-graphicfilter
-sudo dnf install -y dialect
-sudo dnf install -y apostrophe
+dnf install -y libreoffice libreoffice-grammalecte libreoffice-graphicfilter
+dnf install -y dialect
+dnf install -y apostrophe
 
 #Graphisme
-sudo dnf install -y blender YafaRay-blender
-sudo dnf install -y inkscape inkscape-view inkscape-psd
-sudo dnf install -y krita
-sudo dnf install -y scribus
-sudo dnf install -y shotwell
-sudo dnf install -y gimp
+dnf install -y blender YafaRay-blender
+dnf install -y inkscape inkscape-view inkscape-psd
+dnf install -y krita
+dnf install -y scribus
+dnf install -y shotwell
+dnf install -y gimp
 
 git clone https://github.com/Diolinux/PhotoGIMP
 mkdir ~/icons
@@ -21,38 +21,38 @@ rsync -a PhotoGIMP/.local/share/icons/ ~/.local/share/icons/
 rsync -a PhotoGIMP/.var/ ~/.var/
 
 #internet
-sudo dnf install -y firefox-wayland
-sudo dnf install -y discord
-sudo dnf install -y thunderbird-wayland
-sudo dnf install -y transmission transmission-cli
-sudo dnf install -y tor onionshare
-sudo dnf install -y filezilla
+dnf install -y firefox-wayland
+dnf install -y discord
+dnf install -y thunderbird-wayland
+dnf install -y transmission transmission-cli
+dnf install -y tor onionshare
+dnf install -y filezilla
 
 #Utilitaire_terminal
-sudo dnf install -y ytop
-sudo dnf install -y cmatrix
-sudo dnf install -y elinks
-sudo dnf install -y speedtest-cli
-sudo dnf install -y neofetch
+dnf install -y ytop
+dnf install -y cmatrix
+dnf install -y elinks
+dnf install -y speedtest-cli
+dnf install -y neofetch
 
 #Utilitaire
-#sudo dnf install -y gparted
-sudo dnf install -y gnome-tweaks gnome-extensions-app
+#dnf install -y gparted
+dnf install -y gnome-tweaks gnome-extensions-app
 
-sudo dnf install -y powerline powerline-fonts
+dnf install -y powerline powerline-fonts
 cp Extra/bashrc ~/.bashrcbrasero-nautilus
 
 #Code
-sudo dnf install -y godot godot-runner godot-server
-#sudo dnf install -y meld
+dnf install -y godot godot-runner godot-server
+#dnf install -y meld
 
 #AudioVideo
-sudo dnf install -y vlc vlc-extras
-sudo dnf install -y soundconverter
-sudo dnf install -y kdenlive
-sudo dnf install -y brasero brasero-nautilus
+dnf install -y vlc vlc-extras
+dnf install -y soundconverter
+dnf install -y kdenlive
+dnf install -y brasero brasero-nautilus
 
 #Jeux
-sudo dnf install -y steam
-sudo dnf install -y minigalaxy
-sudo dnf install -y lutris
+dnf install -y steam
+dnf install -y minigalaxy
+dnf install -y lutris

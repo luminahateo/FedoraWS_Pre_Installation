@@ -34,4 +34,4 @@ flatpak install -y com.bitwig.BitwigStudio
 #Jeux
 flatpak install -y org.openmw.OpenMW
 
-sudo reboot
+reboot
