@@ -13,13 +13,6 @@ dnf install -y scribus
 dnf install -y shotwell
 dnf install -y gimp
 
-git clone https://github.com/Diolinux/PhotoGIMP
-mkdir ~/icons
-cp -R PhotoGIMP/.icons/ ~/.icons
-cp PhotoGIMP/.local/share/applications/org.gimp.GIMP.desktop ~/.local/share/applications/
-rsync -a PhotoGIMP/.local/share/icons/ ~/.local/share/icons/
-rsync -a PhotoGIMP/.var/ ~/.var/
-
 #internet
 dnf install -y firefox-wayland
 dnf install -y discord
@@ -40,7 +33,6 @@ dnf install -y neofetch
 dnf install -y gnome-tweaks gnome-extensions-app
 
 dnf install -y powerline powerline-fonts
-cp Extra/bashrc ~/.bashrcbrasero-nautilus
 
 #Code
 dnf install -y godot godot-runner godot-server

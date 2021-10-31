@@ -1,32 +1,37 @@
 #!/bin/sh
 
 clear
-echo "INSTALLATEUR DE FEDORA
+echo "INSTALLATEUR DE GNOME
 ################################################################################
-Miroir le plus rapide OK
-Mise à jour DNF OK
-rpmfusion libre et non-libre OK
-Codecs multimédia OK
-Mise à jour Flatpak OK
-Theme Fedora ...
-Extension GNOME ...
+Theme GNOME ...
 ################################################################################
 "
-./"GNOME/themeFedoGnome.sh"
+./"GNOME/themeGnome.sh"
 
 clear
-echo "INSTALLATEUR DE FEDORA
+echo "INSTALLATEUR DE GNOME
 ################################################################################
-Miroir le plus rapide OK
-Mise à jour DNF OK
-rpmfusion libre et non-libre OK
-Codecs multimédia OK
-Mise à jour Flatpak OK
-Theme Fedora OK
-Extension GNOME OK
-Déinstallation des logiciels natifs non souhaités ...
-Déinstallation des extensions natifs non souhaités ...
+Theme GNOME ................................................................ OK
+Extensions GNOME ...
 ################################################################################
 "
+su -root -c "GNOME/extGnome.sh"
 
-./"GNOME/removeGnomeSoftware.sh"
+clear
+echo "INSTALLATEUR DE GNOME
+################################################################################
+Theme GNOME ................................................................ OK
+Extensions GNOME ........................................................... OK
+Nettoyage GNOME ...
+################################################################################
+"
+su -root -c ./"GNOME/removeGnomeSoftware.sh"
+
+clear
+echo "INSTALLATEUR DE GNOME
+################################################################################
+Theme GNOME ................................................................ OK
+Extensions GNOME ........................................................... OK
+Nettoyage GNOME ............................................................ OK
+################################################################################
+"
