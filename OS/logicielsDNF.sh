@@ -11,7 +11,6 @@ sudo dnf install -y inkscape inkscape-view inkscape-psd
 sudo dnf install -y krita
 sudo dnf install -y scribus
 sudo dnf install -y shotwell
-sudo dnf install -y gimp
 
 #internet
 sudo dnf install -y firefox-wayland
