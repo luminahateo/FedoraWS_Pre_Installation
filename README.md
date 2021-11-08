@@ -1,7 +1,7 @@
 # Script d'installation de mon fedora
 
 ### PréRequis
-1/ Fedora Workstation 33-34   
+1/ Fedora Workstation 35  
 2/ Une connection internet   
 3/ Une tasse de chocolat chaud, le temps de l'installation ;)    
 
