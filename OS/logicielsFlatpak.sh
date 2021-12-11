@@ -9,18 +9,17 @@ flatpak install -y com.github.alainm23.planner
 
 #Internet
 flatpak install -y com.tutanota.Tutanota
-flatpak install -y org.x.Warpinator
+#flatpak install -y org.x.Warpinator
 
 #Graphisme
-flatpak install -y com.orama_interactive.Pixelorama
+#flatpak install -y com.orama_interactive.Pixelorama
 flatpak install -y io.freetubeapp.FreeTube
 flatpak install -y fr.natron.Natron
-flatpak install -y org.gnome.design.AppIconPreview
+#flatpak install -y org.gnome.design.AppIconPreview
 flatpak install -y org.gimp.GIMP
 
 #Utilitaire
 flatpak install -y com.github.tchx84.Flatseal
-flappak install -y org.x.Warpinator
 
 #Programmation
 flatpak install -y io.atom.Atom
