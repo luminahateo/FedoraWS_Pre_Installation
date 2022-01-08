@@ -6,7 +6,7 @@ echo "INSTALLATEUR DE GNOME
 Theme GNOME ...
 ################################################################################
 "
-./"GNOME/themeGnome.sh"
+./"GNOME/themes.sh"
 
 clear
 echo "INSTALLATEUR DE GNOME
@@ -15,7 +15,7 @@ Theme GNOME ................................................................ OK
 Extensions GNOME ...
 ################################################################################
 "
-./"GNOME/extGnome.sh"
+./"GNOME/extensions.sh"
 
 clear
 echo "INSTALLATEUR DE GNOME
@@ -25,7 +25,7 @@ Extensions GNOME ........................................................... OK
 Nettoyage GNOME ...
 ################################################################################
 "
-./"GNOME/removeGnomeSoftware.sh"
+./"GNOME/gnomeSoftware.sh"
 
 clear
 echo "INSTALLATEUR DE GNOME

@@ -9,4 +9,4 @@ rsync -a PhotoGIMP/.local/share/icons/ ~/.local/share/icons/
 rsync -a PhotoGIMP/.var/ ~/.var/
 
 #Powerline config
-cp .bashrc ~/.bashrc
+cp bashrc ~/.bashrc
