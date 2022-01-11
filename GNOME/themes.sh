@@ -5,8 +5,8 @@
 sudo dnf install -y materia-gtk-theme
 #sudo dnf install -y yaru*
 
-sudo cp -R Icons/kora Icons/kora-light Icons/kora-light-panel /usr/share/icons
-# sudo cp -R Curseurs/oxy-neon /usr/share/icons
+sudo cp -R GNOME/Icons/kora Icons/kora-light Icons/kora-light-panel /usr/share/icons
+# sudo cp -R GNOME/Curseurs/oxy-neon /usr/share/icons
 
 gsettings set org.gnome.desktop.interface icon-theme "kora"
 # gsettings set  org.gnome.desktop.interface cursor-theme "oxy-neon"
