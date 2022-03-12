@@ -3,6 +3,9 @@
 #Logiciels_Flatpak
 ####################################################################################################################################################################################################################################################################
 
+#MiseAJour
+flatpak update -y
+
 #Bureautique
 flatpak install -y com.simplenote.Simplenote
 flatpak install -y com.github.alainm23.planner

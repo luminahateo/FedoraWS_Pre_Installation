@@ -1,141 +1,67 @@
 #!/bin/sh
 
 clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...
-################################################################################
-"
-./"OS/miroirFast.sh"
+if [ ! -f ".firstInstallOK.tmp" ]; then
+  echo "
 
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ...
-################################################################################
-"
-./"OS/updateSystem.sh"
+            .';:cccccccccccc:;,.
+        .;cccccccccccccccccccccc;.
+       .:cccccccccccccccccccccccccc:.
+      .;ccccccccccccc;.:dddl:.;ccccccc;.
+     .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
+     .:ccccccccccccc;OWMKOOXMWd;cccccccc:.
+     ,cccccccccccccc;MMM.;cc;;WW::cccccccc,
+     :cccccccccccccc;MMM.;cccccccccccccccc:
+     :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
+     cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;
+     ccccc:XM0';cccc;MMM.;cccccccccccccccc'
+     ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
+     ccccc;0MNc.ccc.xMMd:ccccccccccccccc;
+     cccccc;dNMWXXXWM0::cccccccccccccc:,
+     cccccccc;.:odl:.;cccccccccccccc:,.
+     :cccccccccccccccccccccccccccc:'.
+     .:cccccccccccccccccccccc:;,..
 
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ...
-################################################################################
+=======================================================================
+Démarrer l'installation de Fedora Workstation?
+=======================================================================
+[Oui]
+[Non]
 "
-./"/OS/RPM.sh"
+  read -r choix
 
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ...
-################################################################################
-"
-./"/OS/codecs.sh"
-
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ..................................................................... OK
-Installation Flathub ...
-################################################################################
-"
-./"/Universel/flatpak.sh"
-
-#Propre à Gnome
-################################################################################
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ..................................................................... OK
-Installation Flathub ....................................................... OK
-Gnome - Themes & Extensions ...
-################################################################################
-"
-./"GNOME/gnome.sh"
-################################################################################
-
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ..................................................................... OK
-Installation Flathub ....................................................... OK
-Gnome - Themes & Extensions ................................................ OK
-Logiciels DNF ...
-################################################################################
-"
-./"OS/logicielsDNF.sh"
-
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ..................................................................... OK
-Installation Flathub ....................................................... OK
-Gnome - Themes & Extensions ................................................ OK
-Logiciels DNF .............................................................. OK
-Logiciels Flatpak ...
-################################################################################
-"
-./"Universel/logicielsFlatpak.sh"
-
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ..................................................................... OK
-Installation Flathub ....................................................... OK
-Gnome - Themes & Extensions ................................................ OK
-Logiciels DNF .............................................................. OK
-Logiciels Flatpak .......................................................... OK
-Preferences logiciels ...
-################################################################################
-"
-./"Extra/preLogiciels.sh"
-
-clear
-echo "INSTALLATEUR DE FEDORA
-################################################################################
-Miroir le plus rapide ...................................................... OK
-Première mise à jour ....................................................... OK
-RPMfusion libre et non-libre ............................................... OK
-Codecs ..................................................................... OK
-Installation Flathub ....................................................... OK
-Gnome - Themes & Extensions ................................................ OK
-Logiciels DNF .............................................................. OK
-Logiciels Flatpak .......................................................... OK
-Preferences logiciels ...................................................... OK
-################################################################################
-...............................................................................
-....................... INSTALLATION FEDORA TERMINEE ..........................
-...............................................................................
-################################################################################
-Il est préférable de redemarrer, vous êtes prêt?
-[oui]
-[non]
-################################################################################
-"
-read -r reponse
-sudo dnf clean all
-if [ "$reponse" = "oui" ]; then
-  reboot
+  if [ "$choix" = "Oui" ]; then
+  ./premierScript.sh
+  fi
 else
-  echo "fin de programme"
+  echo "
+                
+            .';:cccccccccccc:;,.
+        .;cccccccccccccccccccccc;.
+       .:cccccccccccccccccccccccccc:.
+      .;ccccccccccccc;.:dddl:.;ccccccc;.
+     .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
+     .:ccccccccccccc;OWMKOOXMWd;cccccccc:.
+     ,cccccccccccccc;MMM.;cc;;WW::cccccccc,
+     :cccccccccccccc;MMM.;cccccccccccccccc:
+     :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
+     cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;
+     ccccc:XM0';cccc;MMM.;cccccccccccccccc'
+     ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
+     ccccc;0MNc.ccc.xMMd:ccccccccccccccc;
+     cccccc;dNMWXXXWM0::cccccccccccccc:,
+     cccccccc;.:odl:.;cccccccccccccc:,.
+     :cccccccccccccccccccccccccccc:'.
+     .:cccccccccccccccccccccc:;,..
+
+=======================================================================
+Démarrer la suite de l'installation de Fedora Workstation?
+=======================================================================
+[Oui]
+[Non]
+"
+  read -r choix
+  if [ "$choix" = "Oui" ]; then
+  ./secondScript.sh
+  fi
 fi

@@ -1,6 +1,2 @@
 #!/bin/sh
-
-#Mise à jour
-################################################################################
-sudo dnf update -y
-flatpak update -y
+sudo dnf upgrade -y
