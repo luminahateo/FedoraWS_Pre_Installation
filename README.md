@@ -24,5 +24,9 @@
 3/ ```chmod -R 755 *```    
 4/ ```./startFedo.sh```     
      Il vous sera demandé parfois de validé de votre mots de passe.
-5/ lancer le second script pour flathub après le reboo.   
+5/ lancer le second script pour flathub après le reboot.   
 6/ Une fois les script terminé, il est recommandé de redémarrer le système.     
+
+### logiciels
+
+Pensez à décocher ou cocher d'un # ce que vous désirez ou pas.
