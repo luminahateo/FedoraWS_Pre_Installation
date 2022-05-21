@@ -5,7 +5,7 @@ echo "INSTALLATEUR DE FEDORA
 Logiciels Flatpak ...
 =======================================================================
 "
-./flatpak.sh
+./"Universel/flatpak.sh"
 ./"Universel/logicielsFlatpak.sh"
 
 echo "INSTALLATEUR DE FEDORA
@@ -20,33 +20,28 @@ echo "INSTALLATEUR DE FEDORA
 =======================================================================
 Logiciels Flatpak .................................................. OK
 Themes Flatpak ..................................................... OK
-Preferences logiciels ...
 =======================================================================
 "
-./"Extra/preLogiciels.sh"
 
 clear
 echo "INSTALLATEUR DE FEDORA
 ======================================================================
 
-                        .';:cccccccccccc:;,.
-                     .;cccccccccccccccccccccc;.
-                    .:cccccccccccccccccccccccccc:.
-                  .;ccccccccccccc;.:dddl:.;ccccccc;.
-                  .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
-                  .:ccccccccccccc;OWMKOOXMWd;cccccccc:.
-                  ,cccccccccccccc;MMM.;cc;;WW::cccccccc,
-                  :cccccccccccccc;MMM.;cccccccccccccccc:
-                  :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
-                  cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;
-                  ccccc:XM0';cccc;MMM.;cccccccccccccccc'
-                  ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
-                  ccccc;0MNc.ccc.xMMd:ccccccccccccccc;
-                  cccccc;dNMWXXXWM0::cccccccccccccc:,
-                  cccccccc;.:odl:.;cccccccccccccc:,.
-                  :cccccccccccccccccccccccccccc:'.
-                  .:cccccccccccccccccccccc:;,..
-
 .................. INSTALLATION FEDORA TERMINEE .......................
 
+   Si un logiciel ne veut pas passer au theme dark, ouvrir flatseal
+   et dans la partie Variables du dit logiciel ajouter
+   GTK_THEME=Adwaita-dark
+   puis relancer le logiciel
+
 ======================================================================="
+
+echo "
+=======================================================================
+Pret pour le dernier redémarrage
+=======================================================================
+[O] Oui
+[N] Non
+"
+read -r choix
+sudo reboot

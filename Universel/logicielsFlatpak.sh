@@ -12,32 +12,44 @@ flatpak install -y com.github.alainm23.planner
 
 #Internet
 flatpak install -y com.tutanota.Tutanota
-flatpak install -y com.chatterino.chatterino
-flatpak install -y re.sonny.Tangram
+flatpak install -y de.haeckerfelix.Fragments
+flatpak install -y org.gabmus.giara #Reddit
+#flatpak install -y im.riot.Riot #Element
 
 #Graphisme
 flatpak install -y io.freetubeapp.FreeTube
-flatpak install -y org.gimp.GIMP
 flatpak install -y com.github.huluti.Curtail
-
+flatpak install -y io.github.lainsce.Emulsion
+flatpak install -y org.gustavoperedo.FontDownloader
 
 #Utilitaire
 flatpak install -y com.github.tchx84.Flatseal
 
 #Programmation
 flatpak install -y io.atom.Atom
-flatpak install -y com.google.AndroidStudio
 flatpak install -y io.github.shiftey.Desktop
 flatpak install -y net.sonic_pi.SonicPi
+flatpak install -y re.sonny.Workbench
 
 #AudioVideo
 flatpak install -y flathub com.github.taiko2k.tauonmb
 flatpak install -y com.spotify.Client
 flatpak install -y org.famistudio.FamiStudio
 flatpak install -y com.bitwig.BitwigStudio
+flatpak install -y ar.com.tuxguitar.TuxGuitar
+flatpak install -y com.rafaelmardojai.Blanket
+flatpak install -y de.haeckerfelix.Shortwave
+flatpak install -y io.freetubeapp.FreeTube
 
 #Jeux
 flatpak install -y org.openmw.OpenMW
+
+#Utilitaires
+flatpak install -y com.mattjakeman.ExtensionManager
+flatpak install -y fr.romainvigier.MetadataCleaner
+
+#Maps
+flatpak install -y  org.qgis.qgis
 
 #Emulateurs
 #flatpak install -y app.xemu.xemu

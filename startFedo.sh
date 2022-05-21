@@ -3,65 +3,30 @@
 clear
 if [ ! -f ".firstInstallOK.tmp" ]; then
   echo "
-
-            .';:cccccccccccc:;,.
-        .;cccccccccccccccccccccc;.
-       .:cccccccccccccccccccccccccc:.
-      .;ccccccccccccc;.:dddl:.;ccccccc;.
-     .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
-     .:ccccccccccccc;OWMKOOXMWd;cccccccc:.
-     ,cccccccccccccc;MMM.;cc;;WW::cccccccc,
-     :cccccccccccccc;MMM.;cccccccccccccccc:
-     :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
-     cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;
-     ccccc:XM0';cccc;MMM.;cccccccccccccccc'
-     ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
-     ccccc;0MNc.ccc.xMMd:ccccccccccccccc;
-     cccccc;dNMWXXXWM0::cccccccccccccc:,
-     cccccccc;.:odl:.;cccccccccccccc:,.
-     :cccccccccccccccccccccccccccc:'.
-     .:cccccccccccccccccccccc:;,..
-
 =======================================================================
 Démarrer l'installation de Fedora Workstation?
+Elle se fera en deux parties. La première installation mise à jour,
+préférences et logiciels DNF, RPM. La seconde après redémarrage sur
+Flatpak, Flathub et ces logiciels.  
 =======================================================================
-[Oui]
-[Non]
+[O] Oui
+[N] Non
 "
   read -r choix
 
-  if [ "$choix" = "Oui" ]; then
+  if [ "$choix" = "O" ]; then
   ./premierScript.sh
   fi
 else
   echo "
-                
-            .';:cccccccccccc:;,.
-        .;cccccccccccccccccccccc;.
-       .:cccccccccccccccccccccccccc:.
-      .;ccccccccccccc;.:dddl:.;ccccccc;.
-     .:ccccccccccccc;OWMKOOXMWd;ccccccc:.
-     .:ccccccccccccc;OWMKOOXMWd;cccccccc:.
-     ,cccccccccccccc;MMM.;cc;;WW::cccccccc,
-     :cccccccccccccc;MMM.;cccccccccccccccc:
-     :ccccccc;oxOOOo;MMM0OOk.;cccccccccccc:
-     cccccc:0MMKxdd:;MMMkddc.;cccccccccccc;
-     ccccc:XM0';cccc;MMM.;cccccccccccccccc'
-     ccccc;MMo;ccccc;MMW.;ccccccccccccccc;
-     ccccc;0MNc.ccc.xMMd:ccccccccccccccc;
-     cccccc;dNMWXXXWM0::cccccccccccccc:,
-     cccccccc;.:odl:.;cccccccccccccc:,.
-     :cccccccccccccccccccccccccccc:'.
-     .:cccccccccccccccccccccc:;,..
-
 =======================================================================
 Démarrer la suite de l'installation de Fedora Workstation?
 =======================================================================
-[Oui]
-[Non]
+[O] Oui
+[N] Non
 "
   read -r choix
-  if [ "$choix" = "Oui" ]; then
+  if [ "$choix" = "O" ]; then
   ./secondScript.sh
   fi
 fi
