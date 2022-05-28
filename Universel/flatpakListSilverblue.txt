@@ -1,0 +1,103 @@
+TuxGuitar	ar.com.tuxguitar.TuxGuitar	1.5.6	stable	flathub	system
+Nestopia	ca._0ldsk00l.Nestopia	1.50.0	stable	flathub	system
+Bitwig Studio	com.bitwig.BitwigStudio	4.2.3	stable	flathub	system
+Brave Browser	com.brave.Browser	1.39.111	stable	flathub	system
+Chatterino	com.chatterino.chatterino	2.3.5	stable	flathub	system
+Discord	com.discordapp.Discord	0.0.17	stable	flathub	system
+Planner	com.github.alainm23.planner	3.0.8	stable	flathub	system
+Dialect	com.github.gi_lom.dialect	1.4.1	stable	flathub	system
+Curtail	com.github.huluti.Curtail	1.3.0	stable	flathub	system
+PDF Arranger	com.github.jeromerobert.pdfarranger	1.8.2	stable	flathub	system
+Tor Browser Launcher	com.github.micahflee.torbrowser-launcher	0.3.5	stable	flathub	system
+GB Enhanced+	com.github.shonumi.gbe-plus	1.6	stable	flathub	system
+Tauon Music Box	com.github.taiko2k.tauonmb	7.2.1	stable	flathub	system
+Flatseal	com.github.tchx84.Flatseal	1.7.5	stable	flathub	system
+Blanket	com.rafaelmardojai.Blanket	0.6.0	stable	flathub	system
+Blastem	com.retrodev.blastem	0.6.2	stable	flathub	system
+Simplenote	com.simplenote.Simplenote	2.21.0	stable	flathub	system
+Snes9x	com.snes9x.Snes9x	1.61final	stable	flathub	system
+Spotify	com.spotify.Client	1.1.84.716.gc5f8b819	stable	flathub	system
+Tutanota (preview)	com.tutanota.Tutanota	3.96.7	stable	flathub	system
+Steam	com.valvesoftware.Steam	1.0.0.74	stable	flathub	system
+Fragments	de.haeckerfelix.Fragments	2.0.2	stable	flathub	system
+Shortwave	de.haeckerfelix.Shortwave	3.0.0	stable	flathub	system
+bsnes	dev.bsnes.bsnes	115	stable	flathub	system
+Nettoyeur de métadonnées	fr.romainvigier.MetadataCleaner	2.2.2	stable	flathub	system
+Element	im.riot.Riot	1.10.13	stable	flathub	system
+Atom	io.atom.Atom	1.60.0	stable	flathub	system
+FreeTube	io.freetubeapp.FreeTube	0.16.0 Beta	stable	flathub	system
+Emulsion	io.github.lainsce.Emulsion	3.3.0	stable	flathub	system
+Minigalaxy	io.github.sharkwouter.Minigalaxy	1.1.0	stable	flathub	system
+GitHub Desktop	io.github.shiftey.Desktop	3.0.0-linux2	stable	flathub	system
+Paper	io.posidon.Paper	22.5	stable	flathub	system
+melonDS	net.kuribo64.melonDS	0.9.4	stable	flathub	system
+PCSX2	net.pcsx2.PCSX2	v1.7.2758	stable	flathub	system
+Sonic Pi	net.sonic_pi.SonicPi	3.3.1	stable	flathub	system
+Dolphin Emulator	org.DolphinEmu.dolphin-emu	5.0-16380	stable	flathub	system
+Audacity	org.audacityteam.Audacity	3.1.3	stable	flathub	system
+Codecs	org.audacityteam.Audacity.Codecs		stable	flathub	system
+Blender	org.blender.Blender	3.1.2	stable	flathub	system
+Codecs	org.blender.Blender.Codecs		stable	flathub	system
+DeSmuME	org.desmume.DeSmuME	0.9.11	stable	flathub	system
+DuckStation	org.duckstation.DuckStation	nightly	stable	flathub	system
+FamiStudio	org.famistudio.FamiStudio	3.3.0	stable	flathub	system
+Fedora Media Writer	org.fedoraproject.MediaWriter	4.2.2	stable	fedora	system
+Fedora Platform	org.fedoraproject.Platform	35	f35	fedora	system
+FileZilla	org.filezillaproject.Filezilla	3.60.0	stable	flathub	system
+Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	20.08.19	20.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	21.08.13	21.08	flathub	system
+i386	org.freedesktop.Platform.Compat.i386		21.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.1.8	20.08	flathub	system
+Mesa	org.freedesktop.Platform.GL.default	21.3.8	21.08	flathub	system
+default	org.freedesktop.Platform.GL32.default		21.08	flathub	system
+ffmpeg-full	org.freedesktop.Platform.ffmpeg-full		21.08	flathub	system
+i386	org.freedesktop.Platform.ffmpeg_full.i386		21.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	20.08.19	20.08	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	21.08.13	21.08	flathub	system
+Giara	org.gabmus.giara	1.0.1	stable	flathub	system
+Calculatrice de GNOME	org.gnome.Calculator	41.0	stable	fedora	system
+Agenda	org.gnome.Calendar	41.1	stable	fedora	system
+Caractères de GNOME	org.gnome.Characters	41.0	stable	fedora	system
+Connexions	org.gnome.Connections	41.2	stable	fedora	system
+Contacts	org.gnome.Contacts	41.0	stable	fedora	system
+Evince	org.gnome.Evince	41.3	stable	fedora	system
+Extensions	org.gnome.Extensions	41.rc	stable	fedora	system
+Journaux de GNOME	org.gnome.Logs	3.34.0	stable	fedora	system
+Cartes de GNOME	org.gnome.Maps	41.4	stable	fedora	system
+Sushi	org.gnome.NautilusPreviewer	41.0	stable	fedora	system
+GNOME Application Platform version 3.38	org.gnome.Platform		3.38	flathub	system
+GNOME Application Platform version 41	org.gnome.Platform		41	flathub	system
+GNOME Application Platform version 42	org.gnome.Platform		42	flathub	system
+i386	org.gnome.Platform.Compat.i386		42	flathub	system
+Shotwell	org.gnome.Shotwell	0.30.16	stable	flathub	system
+Sound Juicer	org.gnome.SoundJuicer	3.38.0	stable	flathub	system
+Text Editor	org.gnome.TextEditor	41.1	stable	fedora	system
+Météo	org.gnome.Weather	41.0	stable	fedora	system
+Analyseur d’utilisation des disques	org.gnome.baobab	41.0	stable	fedora	system
+Horloges de GNOME	org.gnome.clocks	41.0	stable	fedora	system
+Eye of GNOME	org.gnome.eog	41.1	stable	fedora	system
+Polices de GNOME	org.gnome.font-viewer	41.0	stable	fedora	system
+Godot	org.godotengine.Godot	3.4.4	stable	flathub	system
+godot application base	org.godotengine.godot.BaseApp		3.4	flathub	system
+Font Downloader	org.gustavoperedo.FontDownloader	8.0.0	stable	flathub	system
+Inkscape	org.inkscape.Inkscape	1.2	stable	flathub	system
+Adwaita theme	org.kde.KStyle.Adwaita		5.15-21.08	flathub	system
+KDE Application Platform	org.kde.Platform		5.15-21.08	flathub	system
+QGnomePlatform	org.kde.PlatformTheme.QGnomePlatform		5.15-21.08	flathub	system
+QtSNI	org.kde.PlatformTheme.QtSNI		5.15-21.08	flathub	system
+QGnomePlatform-decoration	org.kde.WaylandDecoration.QGnomePlatform-decoration		5.15-21.08	flathub	system
+Krita	org.kde.krita	5.0.6	stable	flathub	system
+LibreOffice	org.libreoffice.LibreOffice	7.3.3.2	stable	flathub	system
+Thunderbird	org.mozilla.Thunderbird	91.9.1	stable	flathub	system
+OpenMW	org.openmw.OpenMW	0.47.0	stable	flathub	system
+Raspberry Pi Imager	org.raspberrypi.rpi-imager	1.7.2	stable	flathub	system
+SoundConverter	org.soundconverter.SoundConverter	4.0.0	stable	flathub	system
+Telegram Desktop	org.telegram.desktop	3.7.3	stable	flathub	system
+Telegram Desktop Webview Add-on	org.telegram.desktop.webview	2.36.2	stable	flathub	system
+VLC	org.videolan.VLC	3.0.17.4	stable	flathub	system
+DXVK	org.winehq.Wine.DLLs.dxvk	1.10.1	stable-21.08	flathub	system
+Gecko	org.winehq.Wine.gecko		stable-21.08	flathub	system
+Mono	org.winehq.Wine.mono		stable-21.08	flathub	system
+Workbench	re.sonny.Workbench	1.2.0	stable	flathub	system
